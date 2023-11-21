@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal .NET Projects\\EBuy\\EBuy.API\\EBuy.API.csproj": {}
+    "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.API\\EBuy.API.csproj": {}
   },
   "projects": {
-    "D:\\Personal .NET Projects\\EBuy\\EBuy.API\\EBuy.API.csproj": {
+    "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.API\\EBuy.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal .NET Projects\\EBuy\\EBuy.API\\EBuy.API.csproj",
+        "projectUniqueName": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.API\\EBuy.API.csproj",
         "projectName": "EBuy.API",
-        "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.API\\EBuy.API.csproj",
-        "packagesPath": "C:\\Users\\Kaan Kerim Tas\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.API\\obj\\",
+        "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.API\\EBuy.API.csproj",
+        "packagesPath": "C:\\Users\\KKT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kaan Kerim Tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\KKT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj": {
-                "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj"
+              "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj": {
+                "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj"
               },
-              "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\EBuy.Website.csproj": {
-                "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\EBuy.Website.csproj"
+              "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\EBuy.Website.csproj": {
+                "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\EBuy.Website.csproj"
               }
             }
           }
@@ -62,7 +58,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,25 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj": {
+    "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj",
         "projectName": "EBuy.DAL",
-        "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj",
-        "packagesPath": "C:\\Users\\Kaan Kerim Tas\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\obj\\",
+        "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj",
+        "packagesPath": "C:\\Users\\KKT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kaan Kerim Tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\KKT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,7 +138,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,25 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\EBuy.Website.csproj": {
+    "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\EBuy.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\EBuy.Website.csproj",
+        "projectUniqueName": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\EBuy.Website.csproj",
         "projectName": "EBuy.Website",
-        "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\EBuy.Website.csproj",
-        "packagesPath": "C:\\Users\\Kaan Kerim Tas\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.Website\\obj\\",
+        "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\EBuy.Website.csproj",
+        "packagesPath": "C:\\Users\\KKT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.Website\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kaan Kerim Tas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\KKT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,8 +176,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj": {
-                "projectPath": "D:\\Personal .NET Projects\\EBuy\\EBuy.DAL\\EBuy.DAL.csproj"
+              "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj": {
+                "projectPath": "C:\\Users\\KKT\\Desktop\\EBuyOld\\EBuy.DAL\\EBuy.DAL.csproj"
               }
             }
           }
@@ -223,7 +213,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -235,7 +226,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
