@@ -1,0 +1,107 @@
+﻿@model EBuy.Website.Models.Identity.Register;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Layout.cshtml";
+}
+
+@section style{
+    <link href="~/css/login.css" rel="stylesheet" />
+}
+
+<section class="main">
+    <div class="login">
+        <form action="" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-top">Register</div>
+            <div class="form-body">
+
+                <div class="form-row">
+                    <label asp-for="FirstName" class="form-label"></label>
+                    <input asp-for="FirstName" class="form-input" />
+                </div>
+                <div class="form-row">
+                    <label asp-for="LastName" class="form-label"></label>
+                    <input asp-for="LastName" class="form-input" />
+                </div>
+                <div class="form-row">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-input" />
+                </div>
+                <div class="form-row">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" class="form-input" />
+                </div>
+                <div class="form-row">
+                    <label asp-for="PasswordRepeat" class="form-label"></label>
+                    <input asp-for="PasswordRepeat" class="form-input" />
+                </div>
+                <div class="form-row">
+                    <label asp-for="Role" class="form-label"></label>
+                    <select asp-for="Role">
+                        @foreach (var item in Model.Roles)
+                        {
+                            <option value="@item.Id">@item.RoleName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="form-bottom">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@*<section>
+        <h1>Register</h1>
+
+        <form action="" method="post">
+
+            <div class="form-box">
+                <div class="form-top">
+                    <span> Register</span>
+                </div>
+                <div class="form-body">
+                    <div class="form-line">
+                        <span asp-validation-for="FirstName"></span>
+                        <label asp-for="FirstName"></label>
+                        <input asp-for="FirstName" />
+                    </div>
+                    <div class="form-line">
+                        <span asp-validation-for="LastName"></span>
+                        <label asp-for="LastName"></label>
+                        <input asp-for="LastName" />
+                    </div>
+                    <div class="form-line">
+                        <span asp-validation-for="Email"></span>
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" />
+                    </div>
+                    <div class="form-line">
+                        <span asp-validation-for="Password"></span>
+                        <label asp-for="Password"></label>
+                        <input asp-for="Password" />
+                    </div>
+                    <div class="form-line">
+
+                        <span asp-validation-for="PasswordRepeat"></span>
+                        <label asp-for="PasswordRepeat"></label>
+                        <input asp-for="PasswordRepeat" />
+                    </div>
+
+                    <select asp-for="Role">
+                        @foreach (var item in Model.Roles)
+                        {
+                            <option value="@item.Id">@item.RoleName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-bottom">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>*@
+

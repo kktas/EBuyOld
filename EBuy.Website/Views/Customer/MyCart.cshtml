@@ -1,0 +1,44 @@
+﻿@using EBuy.DAL.Models.Results;
+@using System.Security.Claims;
+@model List<CartItemResult>
+
+@{
+    Layout = "~/Views/Layout.cshtml";
+}
+@section style{
+    <link href="~/css/home.css" rel="stylesheet" />
+}
+
+<section class="main">
+    <h2>My Cart</h2>
+    <div class="cards">
+
+
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <div class="card-left"><img src="/media/@item.ImageName" /></div>
+                <div class="card-right">
+                    <p>
+                        @item.ProductDetail
+                    </p>
+                    <div class="right-bottom">
+                        <p>Amount: @item.Amount</p>
+                        <p>Total Price: @item.TotalPrice ₺</p>
+                        <a href="/Home/Product/@item.ProductId" class="link">Details</a>
+                        <a href="javascript:void(0)" data-itemId="@item.Id" class="link remove">Remove</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="buy">
+        <a href="javascript:void(0)" class="buybtn" data-userId="@User.Claims.First(x=>x.Type==ClaimTypes.Sid).Value">Buy all</a>
+    </div>
+</section>
+
+
+@section script{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="~/js/mycart.js"></script>
+}

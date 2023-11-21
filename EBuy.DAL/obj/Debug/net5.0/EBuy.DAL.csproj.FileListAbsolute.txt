@@ -1,0 +1,15 @@
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\EBuy.DAL.deps.json
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\EBuy.DAL.runtimeconfig.json
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\EBuy.DAL.runtimeconfig.dev.json
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\EBuy.DAL.dll
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\ref\EBuy.DAL.dll
+D:\Personal .NET Projects\EBuy\EBuy.DAL\bin\Debug\net5.0\EBuy.DAL.pdb
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.csproj.AssemblyReference.cache
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.AssemblyInfoInputs.cache
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.AssemblyInfo.cs
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.csproj.CoreCompileInputs.cache
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.dll
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\ref\EBuy.DAL.dll
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.pdb
+D:\Personal .NET Projects\EBuy\EBuy.DAL\obj\Debug\net5.0\EBuy.DAL.genruntimeconfig.cache

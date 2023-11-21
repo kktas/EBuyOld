@@ -1,0 +1,41 @@
+﻿@model EBuy.Website.Models.Identity.Login;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{ 
+    Layout = "~/Views/Layout.cshtml";
+}
+
+@section style{ 
+    <link href="~/css/login.css" rel="stylesheet" />
+}
+
+<section class="main">
+    <div class="login">
+        <form action="" method="post">
+            @Html.AntiForgeryToken()
+            <div class="form-top">Login</div>
+            <div class="form-body">
+
+                <div class="form-errors">
+                    <span style="color:red;" asp-validation-for="Email"></span><br />
+                    <span style="color:red;" asp-validation-for="Password"></span>
+                </div>
+                <div class="form-row">
+                    <label class="form-label" asp-for="Email">Email</label>
+                    <input class="form-input" asp-for="Email">
+                </div>
+                <div class="form-row">
+                    <label class="form-label" asp-for="Password">Password</label>
+                    <input class="form-input" asp-for="Password" />
+                </div>
+                <div class="form-row-text">
+                    Don't have an account? &nbsp; <a href="/Account/Register">Register</a>
+                </div>
+            </div>
+            <div class="form-bottom">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</section>
+

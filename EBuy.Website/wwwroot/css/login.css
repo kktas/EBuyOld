@@ -1,0 +1,82 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .main .login {
+        margin-top: 100px;
+        padding: 20px 40px 40px 40px;
+        border-radius: 30px;
+        width: 400px;
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+
+        .main .login .form-top {
+            height: 30px;
+            text-align: center;
+            align-items: center;
+            font-size: 32px;
+            font-weight: 500;
+        }
+
+        .main .login .form-body {
+            display: block;
+            margin-top: 20px;
+        }
+
+            .main .login .form-body .form-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .main .login .form-body .form-row-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5px;
+            }
+
+.form-row-text a {
+    color: blueviolet;
+}
+
+    .form-row-text a:hover {
+        color: red;
+    }
+
+.main .login .form-body .form-row .form-label {
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.main .login .form-body .form-row .form-input {
+    width: 70%;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.main .login .form-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .main .login .form-bottom button {
+        padding: 10px 15px 10px 15px;
+        background-color: rgb(134, 134, 134);
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }

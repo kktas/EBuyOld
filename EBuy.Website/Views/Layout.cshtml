@@ -1,0 +1,56 @@
+﻿@{
+    bool loggetOutNow = false;
+    if (TempData["logout"]!=null && (bool)TempData["logout"])
+    {
+        loggetOutNow = true;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EBuy</title>
+    <link rel="stylesheet" href="/css/layout.css" />
+    @RenderSection("style", false)
+</head>
+<body>
+    <div class="header">
+        <div class="icon"><img src="~/icons/logo.jpg" alt="logo" /></div>
+        <div class="left-nav">
+            <a class="nav-link" href="/">Home</a>
+            @if (User.IsInRole("Alıcı") && !loggetOutNow)
+            {
+                <a class="nav-link" href="/Customer/Mycart">Cart</a>
+
+            }
+            @if (User.IsInRole("Satıcı") && !loggetOutNow)
+            {
+                <a class="nav-link" href="/Business/SalesReport">Sales</a>
+
+            }
+        </div>
+        <div class="right-nav">
+
+            @if (User.Claims.Count() != 0 && !loggetOutNow)
+            {
+                <p>Welcome @User.Claims.FirstOrDefault(x => x.Type == "FullName").Value</p>
+
+
+                <a href="/Account/Logout" class="login">Sign Out</a>
+
+            }
+            else
+            { <a href="/Account/Login" class="login">Login</a>}
+
+        </div>
+    </div>
+
+    @RenderBody()
+
+
+    @RenderSection("script", false)
+</body>
+</html>

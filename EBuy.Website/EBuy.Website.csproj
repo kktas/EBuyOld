@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="RestSharp" Version="108.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EBuy.DAL\EBuy.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\media\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\media\brand1-product1.jpg" />
+    <None Include="wwwroot\media\brand1-product2.jpg" />
+    <None Include="wwwroot\media\brand1-product3.jpg" />
+    <None Include="wwwroot\media\brand2-product4.jpg" />
+    <None Include="wwwroot\media\brand2-product5.jpg" />
+    <None Include="wwwroot\media\brand2-product6.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+﻿@using EBuy.DAL.Models.EF_Models;
+@model List<Product>;
+
+@{
+    Layout = "~/Views/Layout.cshtml";
+    var claims = User.Claims.ToList();
+
+}
+
+@section style
+{
+    <link href="~/css/home.css" rel="stylesheet" />
+}
+
+<section class="main">
+    <h2>Products</h2>
+    <div class="cards">
+
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <div class="card-left"><img src="/media/@item.ImageName" /></div>
+                <div class="card-right">
+                    <p>
+                        @item.DetailText
+                    </p>
+                    <div class="right-bottom">
+                        <p class="price" data-price="@item.Price">Price: @item.Price ₺</p>
+                        <a href="/Product/@item.Id" class="link">Details</a>
+                        <p>In stock: @item.Stock</p>
+
+                        @if (User.Claims.Count() != 0 && User.IsInRole("Alıcı"))
+                        {
+                            <input type="number" class="amount" min="1" max="5" value="1" />
+
+                            <a href="javascript:void(0)" data-id="@item.Id" class="cart">Add to cart</a>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</section>
+
+
+@section script{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="~/js/home.js"></script>
+}
